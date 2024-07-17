@@ -1,0 +1,42 @@
+.portofolio .section-heading::before {
+  content: "PORTOFOLIO";
+}
+
+.sort a {
+  color: #6c757d;
+  transition: 0.2s;
+}
+.sort a:hover {
+  color: var(--green);
+}
+.sort .active {
+  color: var(--green);
+  border-bottom: 2px solid var(--green);
+}
+.work-card {
+  position: relative;
+  overflow: hidden;
+}
+.work-card img {
+  transition: 0.5s;
+  transform-origin: center;
+}
+.work-card .overlay {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000000bc;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.work-card:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+.work-card:hover img {
+  transform: scale(1.1);
+}

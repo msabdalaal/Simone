@@ -1,0 +1,56 @@
+.landing {
+  background-image: url("../assets/intro-bg.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.cursor {
+  display: inline-block;
+  width: 2px;
+  margin-left: 2px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.landing h1 {
+  font-size: 4rem;
+}
+.landing .button {
+  border: var(--green) solid 2px;
+  color: var(--green);
+  transition: 0.5s;
+}
+.landing .button:hover {
+  background-color: var(--green);
+  color: white;
+}
+@keyframes arrow {
+  from {
+    bottom: 15%;
+    opacity: 0.2;
+  }
+  to {
+    bottom: 5%;
+    opacity: 1;
+  }
+}
+.landing .angle {
+  position: absolute;
+  bottom: 15%;
+  opacity: 0.2;
+  animation: arrow 2s linear infinite;
+}

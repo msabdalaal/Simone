@@ -1,0 +1,17 @@
+:root {
+}
+.services,
+.portofolio,
+.contact {
+  background-color: var(--bg-color);
+}
+.services .section-heading::before {
+  content: "SERVICES";
+}
+
+.service .icon {
+  color: var(--green);
+}
+.service p {
+  color: #4c4d4d;
+}

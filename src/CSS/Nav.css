@@ -1,0 +1,33 @@
+nav {
+  transition: 0.2s;
+  z-index: 2;
+}
+nav a:hover {
+  color: var(--green) !important;
+}
+.nav-link.active {
+  color: var(--green) !important;
+}
+.navbar-collapse {
+  background-color: black;
+}
+.nav-contact {
+  display: none !important;
+}
+@media (min-width: 992px) {
+  .navbar-collapse {
+    background-color: transparent;
+  }
+  .nav-contact {
+    display: flex !important;
+  }
+}
+.go-top {
+  width: 1rem;
+  height: 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+.go-top:hover {
+  background-color: var(--green);
+}

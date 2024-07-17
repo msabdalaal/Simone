@@ -1,0 +1,22 @@
+footer span {
+  color: var(--green);
+  transition: 0.2s;
+}
+footer span:hover {
+  cursor: pointer;
+  color: #199973;
+}
+footer .sep {
+  height: 100%;
+  width: 1px;
+  background-color: #d8d8d8;
+  margin: 0 1rem;
+}
+footer .terms a {
+  transition: 0.2s;
+  color: black;
+}
+footer .terms a:hover {
+  color: var(--green);
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.testimonial .section-heading::before {
+  content: "TESTIMONIAL";
+}
+.fa-circle {
+  color: #7a7e82;
+  font-size: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  transition: 0.2s;
+}
+.fa-circle.active {
+  color: #7a7e82;
+  font-size: 0.5rem;
+  border-color: var(--green);
+}
+.fa-circle:hover {
+  color: var(--green);
+  border-color: var(--green);
+  cursor: pointer;
+}

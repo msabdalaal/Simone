@@ -1,0 +1,68 @@
+.section-heading {
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+  margin: 6rem 0;
+  z-index: 1;
+}
+.section-heading::before {
+  position: absolute;
+  content: "ABOUT ME";
+  color: #dee3e493;
+  top: 50%;
+  left: 50%;
+  font-size: 4rem;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 100%;
+  font-weight: 600;
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 5rem;
+  bottom: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: var(--green) 2px solid;
+  border-width: 0 0 3px 0;
+  color: #dee3e4;
+}
+
+@media (min-width: 1000px) {
+  .section-heading::before {
+    font-size: 8rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .section-heading::before {
+    font-size: 6rem;
+  }
+}
+
+h2 span {
+  color: var(--green);
+}
+.about .sep {
+  height: 1px;
+  width: 100%;
+  background-color: #d8d8d8;
+  margin: 1rem 0;
+}
+.green {
+  color: var(--green);
+}
+.green-button {
+  background-color: var(--green);
+  color: white;
+  transition: 0.5s;
+}
+.green-button:hover {
+  background-color: #199973;
+}
+.insight h1 {
+  font-size: 3rem;
+}

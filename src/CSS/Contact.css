@@ -1,0 +1,17 @@
+.contact .section-heading::before {
+  content: "CONTACT";
+}
+
+.contact-numbers .fa-solid {
+  color: var(--green);
+}
+
+.contact-links a {
+  color: #6c757d;
+}
+
+form input,
+form textarea {
+  outline: none;
+  border: 1px solid #6c757d37;
+}

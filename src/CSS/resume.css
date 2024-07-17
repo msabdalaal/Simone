@@ -1,0 +1,26 @@
+.resume .section-heading::before {
+  content: "SUMMARY ";
+}
+
+.card-content h6 {
+  background-color: var(--green);
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+
+  padding: 0.25rem 0.5rem;
+}
+.progress {
+  height: 0.5rem !important;
+}
+.progress-bar {
+  background-color: var(--green) !important;
+}
+.download {
+  transition: 0.2s;
+}
+.download:hover {
+  cursor: pointer;
+  color: white !important;
+  background-color: #6c757d;
+}
